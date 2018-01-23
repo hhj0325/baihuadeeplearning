@@ -1,3 +1,5 @@
+"""copy from  https://github.com/tensorflow/models/tree/master/tutorials/image/cifar10"""
+
 # Copyright 2015 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,12 +14,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
-""" copy from https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/tutorials/mnist """
 
-"""Imports mnist tutorial libraries used by tutorial examples."""
+"""Makes helper libraries available in the cifar10 package."""
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from tensorflow.examples.tutorials.mnist import input_data
-from tensorflow.examples.tutorials.mnist import mnist
+import cifar10
+import cifar10_input
